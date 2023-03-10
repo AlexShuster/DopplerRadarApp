@@ -13,7 +13,6 @@ namespace DopplerRadarApp
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
