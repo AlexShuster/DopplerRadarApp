@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace DopplerRadarApp.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HomePage : ContentPage
-	{
-		public HomePage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class DataViewPage : ContentPage
+    {
+        public DataViewPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

@@ -11,8 +11,8 @@ namespace DopplerRadarApp
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
-            Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
+            Routing.RegisterRoute(nameof(ScanPage), typeof(ScanPage));
+            Routing.RegisterRoute(nameof(ScanPage), typeof(ScanPage));
         }
 
     }
